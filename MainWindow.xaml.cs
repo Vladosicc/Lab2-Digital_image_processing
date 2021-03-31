@@ -36,7 +36,7 @@ namespace SCOI_2_R
             Apply.Unchecked += Apply_Unchecked;
             Apply.Checked += Apply_Checked;
 
-            gistogramm = new Gistogramm(new Bitmap("test.jpeg"));
+            gistogramm = new Gistogramm(new Bitmap(100,100));
             //gistogramm.GetGistCPP();
             Picture.Source = gistogramm.BitmapSourse;
 
